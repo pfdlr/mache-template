@@ -440,3 +440,149 @@ h3 {
     color: #5a5a5a;
     
 }
+/* sekcja join us */
+section.join-us {
+    height: 201px;
+    background: #ed145b;
+    display: flex;
+}
+.join-us .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.btn-join {
+    background-color: #fff;
+    color: #ed145b;
+    height: 50px;
+    width: 200px;
+    border: 0 none;
+    border-radius: 25px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 80px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    }
+.btn-join:hover {
+    color: #444;
+    border: 2px solid #444;
+}
+.join-text {
+    font-size: 38px;
+    line-height: 130px;
+    color: white;
+    text-align: center;
+}
+.join-text span {
+    font-weight: 800;
+}
+/* sekcja news */
+section.news {
+    height: 1451px;
+    text-align: center;
+    background: white;
+}
+.updates {
+    width: 70%;
+    margin: 0 auto ;
+    padding-top: 150px;
+    padding-bottom: 100px
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.gallery .images {
+    width: 30%;
+    background: #f4f4f4;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.images .image img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    cursor: pointer;
+}
+.triangle-image {
+  clip-path: polygon(0 0, 0 11px, 100% 11px);
+  height: 11px;
+  width: 100%;
+  background-color: rgba(237,20,91, 1);
+  position: absolute;
+  top: 233px;
+}
+.images:hover .triangle-image {
+    display: none;
+}
+.img-overlay {
+    //display: none;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    background-color: rgba(237,20,91, 0.5);
+    position: absolute;
+    top: 0;
+    transition: all 0.5s ease;
+}
+.images:hover .img-overlay {
+    display: block;
+    cursor: pointer;
+    height: 243.75px;
+}
+
+.fas {
+    position: relative;
+    width: 47px;
+    height: 47px;
+    color: white;
+    font-size: 44px;
+    top: 43%;
+}
+.caption h3 {
+    color: #5a5a5a;
+    text-align: left;
+    padding-left: 20px;
+}
+.caption p {
+    padding: 0 20px;
+    text-align: left;
+    color: #5a5a5a;
+}
+.fa-chevron-down {
+    color: #ed145b;
+    font-size: 18px;
+   }
+.more {
+    margin-top: 40px;
+}
+/* sekcja additional info II */
+section.add-info-2 {
+    height: 650px;
+    background: url(https://kampinoski-pn.gov.pl/go_ftp/images/add-info-2-back.png);
+}
+
+.add-2-hd {
+    text-align: center;
+    color: #f4f4f4;
+    padding-top: 100px;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 30px;
+}
+.add-2-hd h2 {
+    font-weight: 300;
+    color: #fff;
+}
+.add-info-2 > .btn-show {
+    margin-top: 50px;
+}
