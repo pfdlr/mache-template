@@ -1,0 +1,200 @@
+body {
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    min-width: 900px;
+    background-color: #f4f4f4;
+    width: 2000px;
+}
+
+h3 {
+    font-style: italic;
+    font-size: 38px;
+    font-weight: 300;
+    color: #5a5a5a;
+}
+h2 {
+    color: #5a5a5a;
+}
+a {
+    text-decoration: none;
+}
+header, footer, section {
+    /* max-width: 1170px; */
+    width: 100%;
+    margin: 0 auto;
+    border: 0 solid black;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* sekcja header */
+header {
+    height: 838px;
+    width: 100%;
+    background: url(https://kampinoski-pn.gov.pl/go_ftp/images/header.png);
+    background-repeat: no-repeat;
+    background-color: #f4f4f4;
+    background-size: cover;
+}
+.header .container {
+    height: 800px;
+}
+.container-nav {
+    background: black;
+    position: fixed;
+}
+.container .slogan h1 {
+    font-size: 46px;
+    font-weight: 900;
+    text-transform: uppercase;
+    }
+.container .slogan {
+    color: white;
+    text-align: center;
+    margin-top: 280px;
+}
+.slogan h1::after {
+    content: " FREE psd Template";
+    text-transform: none;
+    font-weight: 100;
+}
+.line {
+    border-top: 3px solid #ed145b;
+    width: 200px;
+    margin: 0 auto;
+}
+button {
+    height: 50px;
+    width: 200px;
+    border: 0 none;
+    border-radius: 25px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn-show {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 30px);
+    background-color: #ed145b;
+    color: #fff;
+}
+.btn-show:hover {
+     background-color: rgba(237,20,91, 0.7);
+}
+.triangle {
+  float: left;
+  clip-path: polygon(0 0, 0 40px, 100% 0);
+  height: 40px;
+  width: 100%;
+  background-color: rgba(237,20,91, 1);
+  position: absolute;
+  top: -40;
+}
+.triangle-1 {
+  float: left;
+  height: 40px;
+  width: 100%;
+  background-color: #f4f4f4;
+  position: relative;
+  top: 0;
+}
+.container img {
+    padding: 20px;
+}
+/* top navi*/
+header > nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 9px;
+	float: right;
+}
+header > nav ul li {
+	clear: both;
+	display: inline-block;
+	height: 50px;
+	font-size: 16px;
+	line-height: 50px;
+}
+header>nav ul>li>a {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	padding: 0 20px;
+	transition: all 0.3s;
+}
+header>nav ul>li>a:hover {
+	color: #ed145b;
+}
+
+/* sekcja about */
+section.about {
+    height: 612px;
+    background: #f4f4f4;
+    position: relative;
+    box-sizing: border-box;
+}
+.about-text {
+    width: 450px;
+    height: 100%;
+    float: left;
+    padding: 10px 30px;
+    color: #5a5a5a;
+}
+
+.about-image {
+   position: relative;
+    left: 100px;
+}
+
+h2 {
+    font-style: italic;
+    font-size: 38px;
+    font-weight: 300;
+}
+.hr {
+    width: 45%;
+    border-bottom: 2px solid #ed145b;
+    margin: 30px auto;
+    width: 40%;
+    padding: 10px 0;
+}
+.about-text p:nth-child(3){
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 30px;
+    padding-right: 10px;
+}
+.about-text .video {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: justify;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #ed145b;
+    letter-spacing: 2px;
+    margin-top: 50px;
+}
+.about-text i {
+    color: #ed145b;
+    position: relative;
+    left: 150px;
+    top: -55px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.about-text i:hover {
+    color: #ff568d;
+}
+.about-image img {
+    height: 633px;
+    position: absolute;
+    top: 100px;
+    left: 375px;
+    padding: 0;
+}
