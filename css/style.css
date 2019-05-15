@@ -586,3 +586,50 @@ section.add-info-2 {
 .add-info-2 > .btn-show {
     margin-top: 50px;
 }
+/* sekcja download */
+.download {
+    height: 754px;
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    
+}
+.dwnl-img img {
+    position: relative;
+    left:  -150px;
+}
+.dwnl-text {
+    width: 500px;
+    position: relative;
+    left:  -100px;
+}
+.dwnl-text p {
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: 50px;
+    color: #5a5a5a;
+}
+.dwnl-text .hr {
+    margin: auto 0;
+}
+.dwnl-text .btn-show {
+    left: 20%;
+}
+/* footer */
+footer {
+    background: #2b2b2b;
+}
+footer .container {
+    height: 146px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 10px;
+    font-size: 15px;
+}
+footer .container span {
+    color: #ed145b;
+}
