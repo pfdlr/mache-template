@@ -1,2 +1,2 @@
-# nauka-gita
-https://pfdlr.github.io/nauka-gita/
+# mache-template
+https://pfdlr.github.io/mache-template/
