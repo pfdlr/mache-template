@@ -1,2 +1,8 @@
 # mache-template
-https://pfdlr.github.io/mache-template/
+## I Projekt z kursu Kodilla:
+*Tniemy layout od grafika! - projekt dla ambitnych*
+
+[demo](https://pfdlr.github.io/mod3_amb/)
+
+Założenie: Wykonanie strony na podstawie załaczonego projektu.
+Wersja podstawowa jest przeniesieniem 1:1 szblonu i nie uwzglednia RWD.
